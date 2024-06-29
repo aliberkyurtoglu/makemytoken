@@ -2,7 +2,6 @@
 
 .idea/
 
-.vuepress/.env.json
 .vuepress/dist
 
 node_modules/
