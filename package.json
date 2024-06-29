@@ -23,6 +23,7 @@
   "dependencies": {
     "@saeris/vue-spinners": "^1.0.8",
     "bootstrap-vue": "^2.21.2",
+    "sass": "^1.77.6",
     "vee-validate": "^3.4.5",
     "vue-carousel": "^0.18.0",
     "vue2-smooth-scroll": "^1.5.0",
@@ -38,7 +39,6 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-vue": "^7.6.0",
-    "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
     "vue-eslint-parser": "^7.5.0",
     "vuepress": "^1.8.2",
