@@ -7,7 +7,7 @@
     "lint": "eslint .vuepress",
     "lint:fix": "eslint .vuepress --fix",
     "dev": "vuepress dev",
-    "build": "vuepress build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build",
     "deploy": "vuepress build && bash scripts/deploy.sh"
   },
   "keywords": [],
