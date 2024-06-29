@@ -13,5 +13,5 @@ meta:
     - property: og:description
       content: Token Generator Tool Documentation. Discover more details about different Token Types, ABI, source code and analysis report.
     - property: og:url
-      content: https://m120180.github.io/bep20-generator/docs/
+      content: https://makemytoken.vercel.app/docs/
 ---

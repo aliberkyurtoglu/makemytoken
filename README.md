@@ -12,7 +12,7 @@ meta:
     - property: og:description
       content: Create your own Smart Contract without coding. Token Generator is the easiest and fastest way to create your own token on the supported networks. No coding skills are required.
     - property: og:url
-      content: https://m120180.github.io/bep20-generator/
+      content: https://makemytoken.vercel.app/
 ---
 
 # Token Generator - DAPP
@@ -21,7 +21,7 @@ Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable Token.
 
 ## Try it
 
-https://m120180.github.io/bep20-generator/
+https://makemytoken.vercel.app/
 
 ## License
 

@@ -3,7 +3,6 @@ component: Generator
 title: Make My Token - Token Generator
 description: Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable Token. Token Generator is the easiest and fastest way to create your own token on the supported networks. No coding skills are required.
 permalink: /create-token
-canonicalUrl: https://digiswap-core.github.io/bep20-generator/create-token/
 meta:
     - property: twitter:title
       content: Make My Token - Token Generator
@@ -14,5 +13,5 @@ meta:
     - property: og:description
       content: Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable Token. Token Generator is the easiest and fastest way to create your own token on the supported networks. No coding skills are required.
     - property: og:url
-      content: https://m120180.github.io/bep20-generator/create-token/
+      content: https://makemytoken.vercel.app/create-token/
 ---
