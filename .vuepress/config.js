@@ -4,12 +4,12 @@ module.exports = {
   description: 'Create your own BEP20 Smart Contract without coding. BEP20 Generator is the easiest and fastest way to create your own BEP20 token on the Binance Smart Chain network. No coding skills are required.',
   base: '/',
   head: [
-    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    // ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:image', content: 'https://digiswap-core.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
-    ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { property: 'twitter:image', content: 'https://digiswap-core.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
+    // ['meta', { property: 'og:image', content: 'https://digiswap-core.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
+    // ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
+    // ['meta', { property: 'twitter:image', content: 'https://digiswap-core.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
     ['script', { src: '/assets/js/web3.min.js' }],
     ['script',
       {
@@ -17,14 +17,16 @@ module.exports = {
         defer: true,
       },
     ],
-  ],
-  plugins: [
-    ['@vuepress/google-analytics', {
-      ga: vars.gaId,
+    ['script', {
+      async: true,
+      src: `https://www.googletagmanager.com/gtag/js?id=G-E6J8M0PWD6`
     }],
-    ['vuepress-plugin-facebook-pixel', {
-      pixelId: vars.fbPixelId,
-    }],
+    ['script', {}, `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-E6J8M0PWD6');
+    `],
   ],
   define: {
     'process.env': {

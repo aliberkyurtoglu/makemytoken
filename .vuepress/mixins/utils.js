@@ -45,15 +45,15 @@ export default {
       try {
         ga('send', 'event', category, action, label);
       } catch (e) {
-        console.log('ga send', { category, action, label });
+        console.log('gaSend', e);
       }
     },
     fbtrack (eventName, eventParams) {
-      try {
-        fbq('track', eventName, (eventParams || {}));
-      } catch (e) {
-        console.log('fb track', { eventName: eventName, eventParams: (eventParams || {}) });
-      }
+      // try {
+      //   fbq('track', eventName, (eventParams || {}));
+      // } catch (e) {
+      //   console.log('fbTrack', e);
+      // }
     },
     capitalizeFirstLetter(string) {
       if (!string) return string
