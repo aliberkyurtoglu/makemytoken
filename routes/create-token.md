@@ -13,5 +13,5 @@ meta:
     - property: og:description
       content: Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable Token. Token Generator is the easiest and fastest way to create your own token on the supported networks. No coding skills are required.
     - property: og:url
-      content: https://makemytoken.vercel.app/create-token/
+      content: https://www.makemytoken.com/create-token/
 ---

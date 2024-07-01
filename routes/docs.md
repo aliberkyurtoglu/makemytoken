@@ -13,5 +13,5 @@ meta:
     - property: og:description
       content: Token Generator Tool Documentation. Discover more details about different Token Types, ABI, source code and analysis report.
     - property: og:url
-      content: https://makemytoken.vercel.app/docs/
+      content: https://www.makemytoken.com/docs/
 ---
