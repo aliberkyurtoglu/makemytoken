@@ -60,6 +60,7 @@ export default {
       return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
     },
     filterNetworks(networks) {
+      return networks;
       const result = {}
       for (const networkName in networks) {
         if (!networks[networkName]?.isTestNet) {

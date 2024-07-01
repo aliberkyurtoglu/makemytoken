@@ -16,9 +16,17 @@ export const networks = {
         explorerLink: 'https://testnet.bitciexplorer.com',
         id: networkIds.BitciTest,
         name: 'Bitcichain - Testnet',
-        mainCurrency: 'BITCIT',
+        mainCurrency: 'BITCI',
         isTestNet: true,
         fees: feeList[networkIds.BitciTest]
+    },
+    [networkNames.EthereumMain]: {
+        web3Provider: 'https://mainnet.infura.io/v3//',
+        explorerLink: 'https://etherscan.io',
+        id: networkIds.EthereumMain,
+        name: 'Ethereum',
+        mainCurrency: 'ETH',
+        fees: feeList[networkIds.EthereumMain]
     },
     [networkNames.ArbitrumMain]: {
         web3Provider: 'https://arbitrum-mainnet.infura.io/',
