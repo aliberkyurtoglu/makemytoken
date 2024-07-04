@@ -562,7 +562,7 @@
               const sendOptions = {
                 from: await this.promisify(this.web3.eth.getCoinbase),
                 value: this.feeAmount,
-                gasPrice: '10000000000', // default gas price 10 gwei
+                // gasPrice: '10000000000', // default gas price 10 gwei
               };
 
               sendOptions.gas = await this.estimateDeployGas(tokenContract, deployOptions, sendOptions);
