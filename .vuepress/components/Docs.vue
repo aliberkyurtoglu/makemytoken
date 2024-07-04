@@ -41,21 +41,21 @@
                                     header-text-variant="white"
                                     class="mt-3">
                                 <b-list-group flush>
-                                    <b-list-group-item class="py-4">
-                                        <b-link :href="`https://github.com/DigiSwap-Core/bep20-generator/blob/v${token.version}/dist/${contracts.token.contractName}.dist.sol`"
-                                                target="_blank">
-                                            <b-img :src="`https://img.shields.io/badge/version-${token.version}-blue`"></b-img>
-                                        </b-link>
-                                        <b-link href="https://github.com/DigiSwap-Core/bep20-generator/actions" target="_blank">
-                                            <b-img src="https://github.com/DigiSwap-Core/bep20-generator/workflows/CI/badge.svg?branch=master"></b-img>
-                                        </b-link>
-                                        <b-link href="https://coveralls.io/github/DigiSwap-Core/bep20-generator?branch=master" target="_blank">
-                                            <b-img src="https://coveralls.io/repos/github/DigiSwap-Core/bep20-generator/badge.svg?branch=master"></b-img>
-                                        </b-link>
-                                        <b-link href="https://github.com/DigiSwap-Core/bep20-generator/blob/master/LICENSE" target="_blank">
-                                            <b-img src="https://img.shields.io/github/license/DigiSwap-Core/bep20-generator.svg"></b-img>
-                                        </b-link>
-                                    </b-list-group-item>
+<!--                                    <b-list-group-item class="py-4">-->
+<!--                                        <b-link :href="`https://github.com/DigiSwap-Core/bep20-generator/blob/v${token.version}/dist/${contracts.token.contractName}.dist.sol`"-->
+<!--                                                target="_blank">-->
+<!--                                            <b-img :src="`https://img.shields.io/badge/version-${token.version}-blue`"></b-img>-->
+<!--                                        </b-link>-->
+<!--                                        <b-link href="https://github.com/DigiSwap-Core/bep20-generator/actions" target="_blank">-->
+<!--                                            <b-img src="https://github.com/DigiSwap-Core/bep20-generator/workflows/CI/badge.svg?branch=master"></b-img>-->
+<!--                                        </b-link>-->
+<!--                                        <b-link href="https://coveralls.io/github/DigiSwap-Core/bep20-generator?branch=master" target="_blank">-->
+<!--                                            <b-img src="https://coveralls.io/repos/github/DigiSwap-Core/bep20-generator/badge.svg?branch=master"></b-img>-->
+<!--                                        </b-link>-->
+<!--                                        <b-link href="https://github.com/DigiSwap-Core/bep20-generator/blob/master/LICENSE" target="_blank">-->
+<!--                                            <b-img src="https://img.shields.io/github/license/DigiSwap-Core/bep20-generator.svg"></b-img>-->
+<!--                                        </b-link>-->
+<!--                                    </b-list-group-item>-->
                                     <b-list-group-item class="py-4">
                                         Contract Name: <b>{{ contracts.token.contractName }}</b>
                                     </b-list-group-item>
@@ -68,27 +68,27 @@
                                     <b-list-group-item class="py-4">
                                         Runs (Optimizer): <b>200</b>
                                     </b-list-group-item>
-                                    <b-list-group-item class="py-4">
-                                        Control Flow:
-                                        <b-link :href="controlFlow"
-                                                target="_blank">
-                                            <b>{{ contracts.token.contractName }}.png</b>
-                                        </b-link>
-                                    </b-list-group-item>
-                                    <b-list-group-item class="py-4">
-                                        Inheritance Tree:
-                                        <b-link :href="inheritanceTree"
-                                                target="_blank">
-                                            <b>{{ contracts.token.contractName }}.png</b>
-                                        </b-link>
-                                    </b-list-group-item>
-                                    <b-list-group-item class="py-4">
-                                        UML:
-                                        <b-link :href="uml"
-                                                target="_blank">
-                                            <b>{{ contracts.token.contractName }}.svg</b>
-                                        </b-link>
-                                    </b-list-group-item>
+<!--                                    <b-list-group-item class="py-4">-->
+<!--                                        Control Flow:-->
+<!--                                        <b-link :href="controlFlow"-->
+<!--                                                target="_blank">-->
+<!--                                            <b>{{ contracts.token.contractName }}.png</b>-->
+<!--                                        </b-link>-->
+<!--                                    </b-list-group-item>-->
+<!--                                    <b-list-group-item class="py-4">-->
+<!--                                        Inheritance Tree:-->
+<!--                                        <b-link :href="inheritanceTree"-->
+<!--                                                target="_blank">-->
+<!--                                            <b>{{ contracts.token.contractName }}.png</b>-->
+<!--                                        </b-link>-->
+<!--                                    </b-list-group-item>-->
+<!--                                    <b-list-group-item class="py-4">-->
+<!--                                        UML:-->
+<!--                                        <b-link :href="uml"-->
+<!--                                                target="_blank">-->
+<!--                                            <b>{{ contracts.token.contractName }}.svg</b>-->
+<!--                                        </b-link>-->
+<!--                                    </b-list-group-item>-->
                                     <b-list-group-item class="py-4">
                                         <div class="form-group">
                                             <label>ABI:</label>
