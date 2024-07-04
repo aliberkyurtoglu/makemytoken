@@ -57,7 +57,7 @@ export default {
     },
     capitalizeFirstLetter(string) {
       if (!string) return string
-      return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
+      return string?.charAt(0)?.toUpperCase() + string?.slice(1)?.toLowerCase()
     },
     filterNetworks(networks) {
       return networks;
