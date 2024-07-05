@@ -110,15 +110,15 @@
                                     header-text-variant="white"
                                     class="mt-3">
                                 <b-list-group flush>
-                                    <b-list-group-item class="d-flex justify-content-between align-items-center">
-                                        <div>
-                                            BEP20 Compliant<br>
-                                            <small class="text-muted">
-                                                Your Token will be compliant with the BEP20 Standard.
-                                            </small>
-                                        </div>
-                                        <ui--checkmark :value="token.standard"></ui--checkmark>
-                                    </b-list-group-item>
+<!--                                    <b-list-group-item class="d-flex justify-content-between align-items-center">-->
+<!--                                        <div>-->
+<!--                                            BEP20 Compliant<br>-->
+<!--                                            <small class="text-muted">-->
+<!--                                                Your Token will be compliant with the BEP20 Standard.-->
+<!--                                            </small>-->
+<!--                                        </div>-->
+<!--                                        <ui&#45;&#45;checkmark :value="token.standard"></ui&#45;&#45;checkmark>-->
+<!--                                    </b-list-group-item>-->
 
                                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                                         <div>

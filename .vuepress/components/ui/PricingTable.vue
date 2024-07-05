@@ -34,9 +34,9 @@
                     </p>
 
                     <b-list-group flush>
-                        <b-list-group-item class="d-flex justify-content-between align-items-center">
-                            BEP20 Compliant <ui--checkmark :value="t.standard"></ui--checkmark>
-                        </b-list-group-item>
+<!--                        <b-list-group-item class="d-flex justify-content-between align-items-center">-->
+<!--                            BEP20 Compliant <ui&#45;&#45;checkmark :value="t.standard"></ui&#45;&#45;checkmark>-->
+<!--                        </b-list-group-item>-->
 
                         <b-list-group-item class="d-flex justify-content-between align-items-center">
                             Verified Source Code <ui--checkmark :value="t.verified"></ui--checkmark>
