@@ -488,7 +488,7 @@
           this.feeAmount = this.web3.utils.toWei(`${this.feesByNetwork[this.tokenType]}`, 'ether');
         } catch (e) {
           try {
-            this.feeAmount = await this.promisify(this.contracts.service.methods.getPrice(`${this.tokenType}BEP20`).call);
+            this.feeAmount = await this.promisify(this.contracts.service.methods.getPrice(this.tokenType).call);
           } catch (e) {
             if (!this.isTestNet) {
               this.makeToast(
